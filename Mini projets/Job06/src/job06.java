@@ -1,7 +1,7 @@
 public class job06 {
 
     public static void main(String[] args) {
-
+        //Nested for (petlja u petlji)
         int largeur = 20;
         int hauteur = 10;
 
