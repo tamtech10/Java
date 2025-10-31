@@ -9,6 +9,6 @@ public class Job07 {
 
             System.out.print(array[i]);
         }
-            System.out.println("C");
+            System.out.println(array[0]);
     }
 }
