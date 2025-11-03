@@ -2,7 +2,7 @@ public class Job08 {
 
     public static void main(String[] args) {
 
-        int[] numbers = {84, 12, 1, 43, 5, 0};
+        int[] numbers = {84, 12, 1, 43, 5, 0, 870};
 
         for (int i = 0; i < numbers.length - 1; i++) { //prva petlja uzima svaki broj u nizu i proverava ga
 
