@@ -18,7 +18,6 @@ public class Job08 {
             System.out.print(numbers[i] + " ");
         }
 
-
     }
     }
 
