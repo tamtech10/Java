@@ -32,7 +32,7 @@ public class Job08 {
 
     }
     }
-// Arrays.sort
+// Arrays.sort - funkcija kojom sve ovo na brzi nacin uradimo
 
 // treci nacin
 //  public class JobTab8 {
@@ -42,13 +42,13 @@ public class Job08 {
 //        int[] tab = {123, 0, 98, 171, 3, 459, 67};
 //        System.out.println(" Sort the Array Element from Smallest to Largest: ");
 //
-//        for (int i = 0; i < tab.length; i++) { // browse the tab
-//            int smallest = i; //define the index i as the smallest by default
-//            for (int j = i + 1; j < tab.length; j++) // j the index for smallest
+//        for (int i = 0; i < tab.length; i++) {    // browse the tab
+//        int smallest = i;       //define the index i as the smallest by default
+//        for (int j = i + 1; j < tab.length; j++)       // j the index for smallest
 //            {
-//                if (tab[j] < tab[smallest]) //we compare the smallest to the new index
+//          if (tab[j] < tab[smallest]) //we compare the smallest to the new index
 //                {
-//                    smallest = j;   // if true so the index j become the new smallest
+//        smallest = j;   // if true so the index j become the new smallest
 //
 //                }
 //            }
