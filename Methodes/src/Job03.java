@@ -9,5 +9,4 @@ public class Job03 {
     public static String getHello() {
         return "Hello LaPlateforme!";
     }
-
 }
