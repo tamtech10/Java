@@ -4,6 +4,19 @@ public class Job08 {
 
         int[] numbers = {84, 12, 1, 43, 5, 0, 870};
 
+        //prvi nacin
+        //int[] numbers = {84, 12, 1, 43, 5, 0, 870};
+        //for (int i = 0; i < arr.length - 1; i++) {
+        //for (int j = 0; j < arr.length - 1 - i; j++) {
+        //if (arr[j] > arr[j + 1]) {
+        //int temp = arr[j];
+        //arr[j] = arr[j + 1];
+        //arr[j + 1] = temp;
+        //}
+        //}
+        //}
+
+        //drugi nacin
         for (int i = 0; i < numbers.length - 1; i++) { //takes each number in the sequence
             for (int j = i + 1; j < numbers.length; j++) { //compares a number with the next number
                 if (numbers[i] > numbers[j]) { //if it is bigger, swap places
@@ -21,8 +34,8 @@ public class Job08 {
     }
 // Arrays.sort
 
-
- //public class JobTab8 {
+// treci nacin
+//  public class JobTab8 {
 //    public static void main(String[] args) {
 //        // sort the array elements from smallest to largest
 //
