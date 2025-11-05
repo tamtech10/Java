@@ -5,6 +5,8 @@ public class Job05 {
     int nombre = occurrences("Programmation informatique", 'm');
         System.out.println(nombre);
     }
+    //System.out.println("Number of occurrences in string" + occurrences("code a la carte...
+    //drugi nacin i kraci da pozovemo
 
     public static int occurrences(String str, char caractere) {
 
@@ -13,8 +15,8 @@ public class Job05 {
         //convert a string to a string of characters
         char[] tab = str.toCharArray();
 
-        //go through each character in sequence
-        for(int i = 0; i < tab.length; i++) {
+        //go through each character in sequence (mozemo raditi i sa for each)
+        for(int i = 0; i < tab.length; i++) { //ako pritisnes na for koje je zuto podvuceno samo ce promeniti u for each
 
             if(tab[i] == caractere) {
                 count++;
