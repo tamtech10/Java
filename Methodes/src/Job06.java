@@ -15,6 +15,8 @@ public class Job06 {
         //      tab[i] = Character.toUpperCase(tab[i]);
         // }
 
+        //char lower = Character.toLowerCase(); - da predju svi karakteri u mala slova
+
         for(int i = 0; i < tab.length; i++) {
             switch (tab[i]) {
                 case 'A':
