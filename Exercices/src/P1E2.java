@@ -15,7 +15,9 @@ public class P1E2 {
 
         for(int i = 0; i < n; i++) {
             System.out.println(a);
-            int c = a + b;
+            //if (c > n) {
+            // break;  to radimo da ne bi brojao i broj posle
+            int c = a + b; // first + second = prochain
             a = b;
             b = c;
         }
