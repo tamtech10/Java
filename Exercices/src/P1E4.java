@@ -13,7 +13,7 @@ public class P1E4 {
     public static void factorielle(int n) {
         int fact = 1;
         for(int i = 1; i <= n; i++) {
-            fact = fact * i;
+            fact = fact * i; //formula pise se i fact *= i
         }
         System.out.println(fact);
     }
