@@ -13,7 +13,7 @@ public class P2E6 {
         Scanner scan = new Scanner((System.in));
         Random ran = new Random(); // creating a Random Object ran
         int randomNumber = ran.nextInt(100) + 1; //generating a number using nextInt() method
-        int essay = 0;                                  //100 je od 0 do 99 zato + 1
+        int essay;                                  //100 je od 0 do 99 zato + 1
 
         do {
             System.out.println("Nous allons jouer ! Saisissez un numéro: ");
