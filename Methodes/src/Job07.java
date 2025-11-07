@@ -27,8 +27,7 @@ public class Job07 {
 
     public static String plateforme(String str) {
         String[] array = str.split(" ");
-
-
+        return  "";
     }
 
 }
