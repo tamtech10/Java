@@ -3,41 +3,36 @@ package job09;
 public class Etudiant {
 
     private String nom;
-    private double moyenne;
+    private double[] notes;
+    private int age;
 
-    public Etudiant(String nom, double moyenne) {
+    public Etudiant(String nom, double[] notes, int age) {
         this.nom = nom;
-        this.moyenne = moyenne;
+        this.notes = notes;
+        this.age = age;
     }
 
-    public void afficherInfos() {
-
-        System.out.println("Nom d'étudiant " + nom);
-        System.out.println("Note " + moyenne);
-
-        if (moyenne >= 10) {
-            System.out.println("L’étudiant est admis .");
-        } else {
-            System.out.println("L’étudiant est recalé");
-        }
-    }
-
-    public void setNom(String nom) {
-        this.nom = nom;
+    public double[] getNotes() {
+        return notes;
     }
 
     public String getNom() {
         return this.nom;
     }
 
-    public void setMoyenne(double newMoyenne) {
-        if (newMoyenne < 0 || newMoyenne > 20) {
-            System.out.println("Moyenne est imposible");
-        } else {
-            this.moyenne = newMoyenne;
-        }
+    public void setNom(String nom) {
+        this.nom = nom;
     }
-    public double getMoyenne() {
-        return this.moyenne;
+
+    public int getAge() {
+        return this.age;
+    }
+
+    public void setAge(int age) {
+        if (age < 100 && age > 0) {
+            this.age = age;
+        } else {
+            System.out.println("Not valid");
+        }
     }
 }
