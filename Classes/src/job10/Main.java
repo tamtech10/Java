@@ -10,3 +10,4 @@ public class Main {
         System.out.println("L'aire du rectangle est : " + r.calculerAire());
     }
 }
+
